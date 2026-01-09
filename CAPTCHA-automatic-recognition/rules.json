@@ -39,9 +39,9 @@
     "captcha_image_selector": ".code-plane img[class='img-code']",
     "captcha_input_selector": ""
   },
-  {
-  "url": "99nets\\.com",
-  "input": "input[name='seccodeverify']",
-  "image": "img[src*='mod=seccode']"
+{
+  "url_pattern": "99nets.net",
+  "captcha_image_selector": "img[src*='misc.php?mod=seccode']",
+  "captcha_input_selector": "input[name^='seccodeverify']"
 }
 ]
