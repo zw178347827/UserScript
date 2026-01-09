@@ -41,7 +41,7 @@
   },
 {
   "url_pattern": "99nets.net",
-  "captcha_image_selector": "#layer_reg img[src*='mod=seccode']",
-  "captcha_input_selector": "#layer_reg input[name='seccodeverify']"
+  "captcha_image_selector": "#registerform img[src*='mod=seccode']",
+  "captcha_input_selector": "#registerform input[name^='seccodeverify']"
 }
 ]
