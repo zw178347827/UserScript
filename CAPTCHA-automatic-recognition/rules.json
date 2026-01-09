@@ -38,5 +38,10 @@
     "url_pattern": "www.wuleba.com",
     "captcha_image_selector": ".code-plane img[class='img-code']",
     "captcha_input_selector": ""
-  }
+  },
+  {
+  "url": "99nets\\.com",
+  "input": "input[name='seccodeverify']",
+  "image": "img[src*='mod=seccode']"
+}
 ]
